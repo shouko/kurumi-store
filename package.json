@@ -1,0 +1,32 @@
+{
+  "name": "kurumi-store",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "git@github.com:shouko/kurumi-store.git",
+  "author": "shouko <imshouko@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "dependencies": {
+    "better-queue": "^3.8.10",
+    "body-parser": "^1.19.0",
+    "bunyan": "^1.8.12",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "https": "^1.0.0",
+    "multer": "^1.4.2",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
+  },
+  "devDependencies": {
+    "eslint": "^7.14.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "jest": "^26.6.3"
+  }
+}
